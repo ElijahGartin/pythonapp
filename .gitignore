@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# macOS specific files
+*.swp
+*.lock
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# VSCode
+.vscode/
+*.code-workspace
