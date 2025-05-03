@@ -9,8 +9,8 @@ def details():
     return jsonify(
         {
             'time': datetime.now(timezone.utc).isoformat(),
-            'hostname': socket.gethostname()
-
+            'hostname': socket.gethostname(),
+            'message': 'You are doing great, human!'
         }
     )
 
