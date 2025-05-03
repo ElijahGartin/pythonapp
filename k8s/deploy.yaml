@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: pythonapp
-        image: egartin/pythonapp:v2
+        image: egartin/pythonapp:v3
         ports:
         - containerPort: 5000

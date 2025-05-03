@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from datetime import datetime
+from datetime import datetime, timezone
 import socket
 
 app = Flask(__name__)
@@ -8,7 +8,7 @@ app = Flask(__name__)
 def details():
     return jsonify(
         {
-            'time': datetime.datetime.now().isoformat(),
+            'time': datetime.now(timezone.utc).isoformat(),
             'hostname': socket.gethostname()
 
         }
