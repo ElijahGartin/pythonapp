@@ -10,7 +10,7 @@ def details():
         {
             'time': datetime.now(timezone.utc).isoformat(),
             'hostname': socket.gethostname(),
-            'message': 'You are doing great, human!! :o'
+            'message': 'You are doing great, human!! :)'
         }
     )
 
