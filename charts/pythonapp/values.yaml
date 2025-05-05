@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: egartin/pythonapp
   pullPolicy: IfNotPresent
-  tag: 0870fb
+  tag: 3210a9
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
