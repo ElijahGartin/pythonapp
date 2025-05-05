@@ -10,7 +10,7 @@ def info():
         {
             'time': datetime.now(timezone.utc).isoformat(),
             'hostname': socket.gethostname(),
-            'message': 'You are doing great, human!! :)',
+            'message': 'You are doing great, human! :)',
             'deployed_on': 'kubernetes'
         }
     )
